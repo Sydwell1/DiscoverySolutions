@@ -1,0 +1,27 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BLE Heatmaps</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="../public/css/style.css" />
+    
+  </head>
+  <body>
+    <div style="width:auto; height: 50px; border-bottom: 1px solid rgb(218, 218, 218);">
+        <h3 style="text-align:center; color: rgb(100, 100, 129)">BLE Device Sighting data visualisation</h3>
+    </div>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../public/scripts/heat-map-control.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8zwJpzeGcZf4Ccx2KOXi-mbhqCmmF8_k&libraries=visualization&v=weekly"
+      async
+    ></script>
+
+  </body>
+</html>
